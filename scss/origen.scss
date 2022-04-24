@@ -1,0 +1,41 @@
+
+$color-site:royalblue;
+@import "structure";
+@import "animations";
+@import "base";
+
+
+.logo{
+    font-size: 120px;
+    color: $color-site;
+    text-decoration: none;
+}
+
+h1 a:hover{
+    color: lightblue;
+   text-decoration-line:none;
+   font-size: 122px;
+}
+
+.text-link{
+    font-size: 30px;
+    color:black
+}
+
+
+
+/* media queries -----------------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 576px){
+
+
+    .side-menu{
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px){
+
+
+
+}
