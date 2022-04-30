@@ -1,25 +1,39 @@
 
 $color-site:royalblue;
+
+@mixin sizes($width,$height) {
+    height:$height;
+    width:$width;
+}
+
 @import "structure";
 @import "animations";
 @import "base";
 
 
+$style-font:(
+    color:$color-site,
+    size:120px,
+    decoration:none,
+);
+
+
 .logo{
-    font-size: 120px;
-    color: $color-site;
-    text-decoration: none;
+    font-size: map-get($style-font,size);
+    color: map-get($style-font,color);
+    text-decoration: map-get($style-font,decoration);
 }
 
 h1 a:hover{
     color: lightblue;
-   text-decoration-line:none;
-   font-size: 122px;
+   text-decoration-line:map-get($style-font,decoration);
+   font-size: map-get($style-font,size) +2;
 }
 
 .text-link{
     font-size: 30px;
-    color:black
+    color:black;
+    text-decoration: none;
 }
 
 

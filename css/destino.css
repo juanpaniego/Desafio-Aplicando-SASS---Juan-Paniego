@@ -14,11 +14,11 @@
   text-decoration: none;
   text-align: center;
   margin: 2px;
-  width: 250px;
   height: 200px;
+  width: 250px;
 }
 
-.image-gif-contact {
+.image-gif-contact, .image-gif-joinus {
   animation-name: image-animate-contact;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -50,14 +50,6 @@
 }
 .image-gif-joinus {
   animation-name: image-animate-joinus;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  height: 250px;
-  width: 100%;
-  padding: 50px;
-  margin-left: 10px;
-  margin-top: 30px;
-  margin-bottom: 40px;
 }
 
 @keyframes image-animate-joinus {
@@ -104,6 +96,7 @@ h1 a:hover {
 .text-link {
   font-size: 30px;
   color: black;
+  text-decoration: none;
 }
 
 /* media queries -----------------------------------------------------------------------------------------------------------*/

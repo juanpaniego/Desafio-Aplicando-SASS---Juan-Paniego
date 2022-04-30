@@ -33,15 +33,9 @@
 }
 
 .image-gif-joinus{
+    @extend .image-gif-contact;
     animation-name: image-animate-joinus;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    height:250px;
-    width:100%;
-    padding: 50px;
-    margin-left: 10px;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    
 }
 
 @keyframes image-animate-joinus{
